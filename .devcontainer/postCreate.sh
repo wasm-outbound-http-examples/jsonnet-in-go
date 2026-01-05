@@ -1,1 +1,1 @@
-curl -fsSL https://deno.land/install.sh | sh
+curl -fsSL https://deno.land/install.sh | bash -s -- --yes

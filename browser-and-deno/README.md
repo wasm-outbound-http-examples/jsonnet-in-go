@@ -4,6 +4,13 @@
 
 Tested with Go 1.25.5, Bun 1.3.5, Deno 2.6.3, go-jsonnet [v0.21.0](https://github.com/google/go-jsonnet/tree/v0.21.0).
 
+> [!NOTE]
+> This example uses Jsonnet as an expression language. 
+> 
+> If your use case is employing Jsonnet as configuration language,
+> take in account the [hermeticity](https://github.com/google/jsonnet/blob/v0.21.0/doc/articles/comparisons.html#L189),
+> there external calls like HTTP requests are discouraged.
+
 ### Preparation
 
 1. Open this repo in devcontainer, e.g. using Github Codespaces.
